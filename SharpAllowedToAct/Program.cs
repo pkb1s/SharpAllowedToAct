@@ -45,10 +45,10 @@ namespace AddMachineAccount
                 "\tSet the name of the target computer you want to exploit. Need to have write access to the computer object.\n" +
                 "\n" +
                 "-a, --DomainController\n" +
-                "\tSet the attacker's port\n" +
+                "\tSet the domain controller to use.\n" +
                 "\n" +
                 "-d, --Domain\n" +
-                "\tSet the attacker's page\n" +
+                "\tSet the target domain.\n" +
                 "\n" +
                 "-c, --Cleanup\n" +
                 "\tEmpty the value of msds-allowedtoactonbehalfofotheridentity for a given computer account (Usage: '--Cleanup true'). Must be combined with --TargetComputer.\n" +
