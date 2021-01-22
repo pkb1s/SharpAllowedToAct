@@ -234,6 +234,8 @@ namespace AddMachineAccount
                 distinguished_name += ",DC=" + DC;
                 victim_distinguished_name += ",DC=" + DC;
             }
+            victim_distinguished_name = victim_distinguished_name.TrimStart(',');
+
 
             //this check is lame but cannot make the switch work with CommandLine :)
             if (cleanup == "true")
