@@ -226,7 +226,7 @@ namespace AddMachineAccount
             String[] DC_array = null;
 
             distinguished_name = "CN=" + machine_account + ",CN=Computers";
-            victim_distinguished_name = "CN=" + victimcomputer + ",CN=Computers";
+            victim_distinguished_name = "";
             DC_array = Domain.Split('.');
 
             foreach (String DC in DC_array)
